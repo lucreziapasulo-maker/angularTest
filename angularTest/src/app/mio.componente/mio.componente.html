@@ -1,0 +1,5 @@
+<p>mio.componente works!</p>
+<input type="text" [(ngModel)]="nome" />
+<p>Il valore di nome è: {{ nome }}</p>
+<br>
+<button (click)="onClick($event)" [disabled]="!nome"  class = "btn btn-primary">Cliccami</button>
